@@ -17,9 +17,9 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2.5">
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">B</span>
+            <span className="text-primary-foreground font-bold text-sm">E</span>
           </div>
-          <span className="font-bold text-lg text-foreground">Buersrunners</span>
+          <span className="font-bold text-lg text-foreground">ExpoServe</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

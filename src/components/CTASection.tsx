@@ -15,7 +15,7 @@ const CTASection = () => {
           Klaar om je beurscatering te stroomlijnen?
         </h2>
         <p className="text-muted-foreground text-lg max-w-lg mx-auto mb-8">
-          Start vandaag nog met Buersrunners en ontdek hoe bestellingen, menu's
+          Start vandaag nog met ExpoServe en ontdek hoe bestellingen, menu's
           en teamcommunicatie samenkomen in één overzichtelijk platform.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
