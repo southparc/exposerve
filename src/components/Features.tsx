@@ -56,7 +56,7 @@ const Features = () => {
             Alles wat je nodig hebt
           </h2>
           <p className="text-muted-foreground text-lg max-w-lg mx-auto">
-            Van bestelling tot aflevering, Buersrunners stroomlijnt elk aspect
+            Van bestelling tot aflevering, ExpoServe stroomlijnt elk aspect
             van je beurscatering.
           </p>
         </motion.div>

@@ -23,7 +23,7 @@ const AISection = () => {
             <div className="absolute -inset-4 bg-primary/5 rounded-[2.5rem] blur-2xl" />
             <img
               src={appMockup2}
-              alt="Buersrunners menu beheer"
+              alt="ExpoServe menu beheer"
               className="relative w-[280px] sm:w-[320px] rounded-[2rem] shadow-card-hover"
             />
           </div>
@@ -47,7 +47,7 @@ const AISection = () => {
           </h2>
 
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            Buersrunners analyseert je beursdata en geeft slimme aanbevelingen
+            ExpoServe analyseert je beursdata en geeft slimme aanbevelingen
             voor je menu, voorraad en personeelsinzet. Zo ben je altijd voorbereid.
           </p>
 

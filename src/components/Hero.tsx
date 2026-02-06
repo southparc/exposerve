@@ -15,12 +15,12 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border bg-secondary mb-6">
             <span className="w-2 h-2 rounded-full bg-primary" />
             <span className="text-sm font-medium text-muted-foreground">
-              Trade Fair Catering Hub
+              ExpoServe — Trade Fair Catering
             </span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6">
-            Buersrunners.{" "}
+            ExpoServe.{" "}
             <span className="text-gradient">
               Jouw catering partner.
             </span>
@@ -52,7 +52,7 @@ const Hero = () => {
             <div className="absolute -inset-4 bg-primary/5 rounded-[2.5rem] blur-2xl" />
             <img
               src={appMockup}
-              alt="Buersrunners app dashboard"
+              alt="ExpoServe app dashboard"
               className="relative w-[280px] sm:w-[320px] rounded-[2rem] shadow-card-hover"
             />
           </div>

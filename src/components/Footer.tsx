@@ -4,12 +4,12 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2.5">
           <div className="w-7 h-7 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-xs">B</span>
+            <span className="text-primary-foreground font-bold text-xs">E</span>
           </div>
-          <span className="font-semibold text-foreground">Buersrunners</span>
+          <span className="font-semibold text-foreground">ExpoServe</span>
         </div>
         <p className="text-sm text-muted-foreground">
-          © 2026 Buersrunners. Alle rechten voorbehouden.
+          © 2026 ExpoServe. Alle rechten voorbehouden.
         </p>
       </div>
     </footer>
