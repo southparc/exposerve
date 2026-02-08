@@ -8,9 +8,7 @@ const Footer = () => {
           </div>
           <span className="font-semibold text-foreground">ExpoServe</span>
         </div>
-        <p className="text-sm text-muted-foreground">
-          © 2026 ExpoServe. Alle rechten voorbehouden.
-        </p>
+        <p className="text-sm text-muted-foreground">© 2026 southparc bv. Alle rechten voorbehouden.</p>
       </div>
     </footer>
   );
