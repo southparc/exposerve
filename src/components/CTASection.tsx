@@ -15,12 +15,12 @@ const CTASection = () => {
           Klaar om je beurscatering te stroomlijnen?
         </h2>
         <p className="text-muted-foreground text-lg max-w-lg mx-auto mb-8">
-          Start vandaag nog met ExpoServe en ontdek hoe bestellingen, menu's
-          en teamcommunicatie samenkomen in één overzichtelijk platform.
+          Start vandaag nog met ExpoServe en ontdek hoe bestellingen, menu's en teamcommunicatie samenkomen in één
+          overzichtelijk platform.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Button size="lg" className="shadow-primary-glow text-base px-8">
-            Start gratis
+            <a href="https://app.exposerve.nl/auth">Start Nu</a>
           </Button>
           <Button size="lg" variant="outline" className="text-base px-8">
             Plan een demo
