@@ -35,8 +35,8 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <Button size="sm" className="shadow-primary-glow">
-            Start Nu
+          <Button size="sm" className="shadow-primary-glow" asChild>
+            <a href="https://app.exposerve.nl/auth">Start Nu</a>
           </Button>
         </div>
 
@@ -67,8 +67,8 @@ const Navbar = () => {
                   {item.label}
                 </a>
               ))}
-              <Button size="sm" className="w-full shadow-primary-glow">
-                Start Nu
+              <Button size="sm" className="w-full shadow-primary-glow" asChild>
+                <a href="https://app.exposerve.nl/auth">Start Nu</a>
               </Button>
             </div>
           </motion.div>
