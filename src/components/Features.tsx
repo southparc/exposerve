@@ -1,18 +1,11 @@
 import { motion } from "framer-motion";
-import {
-  ClipboardList,
-  UtensilsCrossed,
-  MapPin,
-  MessageCircle,
-  BarChart3,
-  ShieldCheck,
-} from "lucide-react";
+import { ClipboardList, UtensilsCrossed, MapPin, MessageCircle, BarChart3, ShieldCheck } from "lucide-react";
 
 const features = [
   {
     icon: ClipboardList,
-    title: "Bestellingen beheren",
-    description: "Realtime overzicht van alle bestellingen per stand en per beurs.",
+    title: "Bestellingen doen",
+    description: "Doe je bestellingen op de stand via de app.",
   },
   {
     icon: UtensilsCrossed,
@@ -21,8 +14,8 @@ const features = [
   },
   {
     icon: MessageCircle,
-    title: "Team communicatie",
-    description: "Direct chatten met je teamleden op de beursvloer.",
+    title: "Bestellingen status",
+    description: "Realtime overzicht van alle bestellingen per stand en per beurs.",
   },
   {
     icon: MapPin,
@@ -36,8 +29,8 @@ const features = [
   },
   {
     icon: ShieldCheck,
-    title: "Voedselveiligheid",
-    description: "HACCP-checklists en temperatuurregistratie ingebouwd.",
+    title: "Makkelijk",
+    description: "Inclusief roosteren van runners en stands.",
   },
 ];
 
@@ -52,12 +45,9 @@ const Features = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">
-            Alles wat je nodig hebt
-          </h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">Alles wat je nodig hebt</h2>
           <p className="text-muted-foreground text-lg max-w-lg mx-auto">
-            Van bestelling tot aflevering, ExpoServe stroomlijnt elk aspect
-            van je beurscatering.
+            Van bestelling tot aflevering, ExpoServe stroomlijnt elk aspect van je beurscatering.
           </p>
         </motion.div>
 
@@ -74,12 +64,8 @@ const Features = () => {
               <div className="w-11 h-11 rounded-xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
                 <feature.icon className="w-5 h-5 text-primary" />
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-card-foreground">
-                {feature.title}
-              </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                {feature.description}
-              </p>
+              <h3 className="font-semibold text-lg mb-2 text-card-foreground">{feature.title}</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">{feature.description}</p>
             </motion.div>
           ))}
         </div>
