@@ -14,22 +14,16 @@ const Hero = () => {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border bg-secondary mb-6">
             <span className="w-2 h-2 rounded-full bg-primary" />
-            <span className="text-sm font-medium text-muted-foreground">
-              ExpoServe — Trade Fair Catering
-            </span>
+            <span className="text-sm font-medium text-muted-foreground">ExpoServe — Trade Fair Catering</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6">
-            ExpoServe.{" "}
-            <span className="text-gradient">
-              Jouw catering partner.
-            </span>
+            ExpoServe. <span className="text-gradient">De makkelijke catering app.</span>
           </h1>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-md">
-            Beheer al je catering op beurzen vanuit één app. Bestellingen, menu's,
-            standlocaties en realtime communicatie. Ontwikkeld voor professionals
-            die efficiëntie zoeken.
+            Beheer al je catering op alle beurzen vanuit één app. Bestellingen, menu's, standlocaties en voorraad.
+            Ontwikkeld voor professionals die gemak en efficiëntie zoeken.
           </p>
 
           <div className="flex flex-wrap gap-3">
