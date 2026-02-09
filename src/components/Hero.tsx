@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6">
-            ExpoServe. <span className="text-gradient">De makkelijke catering app.</span>
+            ExpoServe. <span className="text-gradient"><br>De makkelijke catering app.</span>
           </h1>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-md">
