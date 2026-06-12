@@ -4,33 +4,33 @@ import { ClipboardList, UtensilsCrossed, MapPin, MessageCircle, BarChart3, Shiel
 const features = [
   {
     icon: ClipboardList,
-    title: "Bestellingen doen",
-    description: "Doe je bestellingen op de stand via de app.",
+    title: "Bestellen op de stand",
+    description: "Neem bestellingen op waar je staat, gewoon op een telefoon — ook als het wifi traag is.",
   },
   {
     icon: UtensilsCrossed,
     title: "Menu & voorraad",
-    description: "Beheer je menu, prijzen en voorraad vanuit één centraal dashboard.",
+    description: "Beheer menu, prijzen en voorraad centraal. Kopieer de opzet van een eerdere beurs in een paar minuten.",
   },
   {
     icon: MessageCircle,
-    title: "Bestellingen status",
-    description: "Realtime overzicht van alle bestellingen per stand en per beurs.",
+    title: "Realtime orderstatus",
+    description: "Zie per stand wat er openstaat, onderweg is en afgeleverd. Iedereen kijkt naar hetzelfde overzicht.",
   },
   {
     icon: MapPin,
-    title: "Standlocaties",
-    description: "Overzicht van al je stands met locatie en status per beurs.",
+    title: "Multi-stand, multi-beurs",
+    description: "Twintig standen op drie beurzen tegelijk? Elke beurs heeft een eigen omgeving met eigen standen en menu.",
   },
   {
     icon: BarChart3,
-    title: "Rapportages",
-    description: "Inzicht in omzet, populaire items en teamperformance.",
+    title: "Rapportages per beurs",
+    description: "Omzet per stand, per dag, per beurs. Zie welke items lopen en waar de marge lekt.",
   },
   {
     icon: ShieldCheck,
-    title: "Makkelijk",
-    description: "Inclusief roosteren van runners en stands.",
+    title: "Runner-planning",
+    description: "Rooster runners en standen in en regel de afroep in dezelfde app — geen losse planningstool meer nodig.",
   },
 ];
 
@@ -47,7 +47,7 @@ const Features = () => {
         >
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">Alles wat je nodig hebt</h2>
           <p className="text-muted-foreground text-lg max-w-lg mx-auto">
-            Van bestelling tot aflevering, ExpoServe stroomlijnt elk aspect van je beurscatering.
+            Van bestelling tot aflevering, Exposerve stroomlijnt elk aspect van je beurscatering.
           </p>
         </motion.div>
 

@@ -10,7 +10,7 @@ const highlights = [
 
 const AISection = () => {
   return (
-    <section id="how-it-works" className="py-24 px-6 bg-secondary/50">
+    <section id="smart" className="py-24 px-6 bg-secondary/50">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-16">
         <motion.div
           className="flex-1 flex justify-center"
@@ -47,7 +47,7 @@ const AISection = () => {
           </h2>
 
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            ExpoServe analyseert je beursdata en geeft slimme aanbevelingen
+            Exposerve analyseert je beursdata en geeft slimme aanbevelingen
             voor je menu, voorraad en personeelsinzet. Zo ben je altijd voorbereid.
           </p>
 
