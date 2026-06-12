@@ -1,34 +1,36 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exposerve catering software</title>
+    <title>Exposerve — Beurscatering zonder chaos op de standen</title>
     <link rel="icon" type="image/png" href="/favicon.png">
-    <meta name="description" content="De makkelijkste software voor beurscatering.">
-    <meta name="author" content="Lovable" />
-    
-    
+    <meta name="description" content="Exposerve is de app waarmee beurscateraars bestellingen, menu's, runners en voorraad in één omgeving regelen — op elke stand, op elke beurs.">
+
     <meta property="og:type" content="website" />
+    <meta property="og:title" content="Exposerve — Beurscatering zonder chaos op de standen">
+    <meta property="og:description" content="Eén app voor bestellingen, menu's, runners en voorraad — op elke stand, op elke beurs.">
     <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/ixATLxNgGyf1ggjCxJOZEVAoV3W2/social-images/social-1776795972237-Screenshot_2026-04-21_at_18.34.43.webp">
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    
-    
+    <meta name="twitter:title" content="Exposerve — Beurscatering zonder chaos op de standen">
+    <meta name="twitter:description" content="Eén app voor bestellingen, menu's, runners en voorraad — op elke stand, op elke beurs.">
     <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/ixATLxNgGyf1ggjCxJOZEVAoV3W2/social-images/social-1776795972237-Screenshot_2026-04-21_at_18.34.43.webp">
-    <!-- Google tag (gtag.js) -->
+
+    <!-- Google tag (gtag.js) — analytics_storage staat standaard op denied; de cookiebanner zet hem op granted na toestemming -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X8H80X4881"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+      });
       gtag('js', new Date());
       gtag('config', 'G-X8H80X4881');
     </script>
-    <meta property="og:title" content="Exposerve catering software">
-  <meta name="twitter:title" content="Exposerve catering software">
-  <meta property="og:description" content="De makkelijkste software voor beurscatering.">
-  <meta name="twitter:description" content="De makkelijkste software voor beurscatering.">
-</head>
+  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>

@@ -12,18 +12,18 @@ const CTASection = () => {
         transition={{ duration: 0.5 }}
       >
         <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">
-          Klaar om je beurscatering te stroomlijnen?
+          Klaar om de chaos van de standen te halen?
         </h2>
         <p className="text-muted-foreground text-lg max-w-lg mx-auto mb-8">
-          Start vandaag nog met ExpoServe en ontdek hoe bestellingen, menu's en teambezetting samenkomen in één
-          overzichtelijk platform.
+          Plan een demo van een half uur. We laten Exposerve zien met jouw soort beurzen en
+          rekenen direct de prijs voor jouw situatie door.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
-          <Button size="lg" className="shadow-primary-glow text-base px-8">
-            <a href="https://app.exposerve.nl/auth">Start Nu</a>
+          <Button size="lg" className="shadow-primary-glow text-base px-8" asChild>
+            <a href="#contact">Plan een demo</a>
           </Button>
-          <Button size="lg" variant="outline" className="text-base px-8">
-            Plan een demo
+          <Button size="lg" variant="outline" className="text-base px-8" asChild>
+            <a href="#faq">Bekijk de FAQ</a>
           </Button>
         </div>
       </motion.div>
