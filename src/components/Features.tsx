@@ -1,7 +1,12 @@
 import { motion } from "framer-motion";
-import { ClipboardList, UtensilsCrossed, MapPin, MessageCircle, BarChart3, ShieldCheck } from "lucide-react";
+import { ClipboardList, UtensilsCrossed, MapPin, MessageCircle, BarChart3, ShieldCheck, QrCode } from "lucide-react";
 
 const features = [
+  {
+    icon: QrCode,
+    title: "QR-login voor je krachten",
+    description: "Standhouders en runners scannen een QR-code en draaien direct mee. Geen accounts, geen wachtwoorden, geen onboarding.",
+  },
   {
     icon: ClipboardList,
     title: "Bestellen op de stand",
