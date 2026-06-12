@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import appMockup from "@/assets/app-mockup.png";
 
+const DEMO_URL = "https://hs.southparc.nl/meetings/diederik-klaassen";
+
 const Hero = () => {
   return (
     <section className="pt-32 pb-20 px-6 overflow-hidden">
@@ -28,7 +30,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap gap-3">
             <Button size="lg" className="shadow-primary-glow text-base px-8" asChild>
-              <a href="#contact">Plan een demo</a>
+              <a href={DEMO_URL} target="_blank" rel="noopener noreferrer">Plan een demo</a>
             </Button>
             <Button size="lg" variant="outline" className="text-base px-8" asChild>
               <a href="#how-it-works">Zie hoe het werkt</a>

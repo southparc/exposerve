@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/exposerve-logo.png";
 
+const DEMO_URL = "https://hs.southparc.nl/meetings/diederik-klaassen";
+
 const navItems = [
   { label: "Features", href: "/#features" },
   { label: "Hoe het werkt", href: "/#how-it-works" },
@@ -42,7 +44,7 @@ const Navbar = () => {
             Inloggen
           </a>
           <Button size="sm" className="shadow-primary-glow" asChild>
-            <a href="/#contact">Plan een demo</a>
+            <a href={DEMO_URL} target="_blank" rel="noopener noreferrer">Plan een demo</a>
           </Button>
         </div>
 
@@ -81,7 +83,14 @@ const Navbar = () => {
                 Inloggen
               </a>
               <Button size="sm" className="w-full shadow-primary-glow" asChild>
-                <a href="/#contact" onClick={() => setIsOpen(false)}>Plan een demo</a>
+                <a
+                  href={DEMO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Plan een demo
+                </a>
               </Button>
             </div>
           </motion.div>
